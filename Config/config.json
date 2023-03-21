@@ -1,0 +1,19 @@
+{
+	"autoloadFolder": [
+		"Framework",
+		"Controller",
+		"Model",
+		"Framework/Exception",
+		"Model/Manager",
+		"Model/Entities",
+		"View/Challenge"
+	],
+	"database":  {
+		"name": "Hackcode",
+		"dbname": "Hackcode",
+		"host": "localhost",
+		"user": "root",
+		"password": "root"
+	},
+	"basepath" : "/projet_perso"
+}

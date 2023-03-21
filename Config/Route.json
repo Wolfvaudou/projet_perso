@@ -1,0 +1,141 @@
+[{
+	"path" : "/",
+	"controller" : "Home",
+	"action" : "Home",
+	"method" : "GET",
+	"param" : [],
+	"manager": []
+},
+{
+	"path" : "/Home",
+	"controller" : "Home",
+	"action" : "Home",
+	"method" : "GET",
+	"param" : [],
+	"manager": []
+},
+{
+	"path" : "/Login",
+	"controller" : "Login",
+	"action" : "Login",
+	"method" : "GET",
+	"param" : [],
+	"manager": []
+},
+{
+	"path" : "/Unco",
+	"controller" : "Login",
+	"action" : "Unco",
+	"method" : "GET",
+	"param" : [],
+	"manager": []
+},
+{
+	"path" : "/Login",
+	"controller" : "Login",
+	"action" : "Auth",
+	"method" : "POST",
+	"param" : [],
+	"manager": ["LoginManager"]
+},
+
+
+{
+	"path" : "/Error",
+	"controller" : "Error",
+	"action" : "Show",
+	"method" : "GET",
+	"param" : [],
+	"manager": []
+},
+{"path" : "/Signup",
+"controller" : "Signup",
+"action" : "Signup",
+"method" : "GET",
+"param" : [],
+"manager": ["SignupManager"]
+},
+{"path" : "/Signup",
+"controller" : "Signup",
+"action" : "CreateAccount",
+"method" : "POST",
+"param" : [],
+"manager": ["SignupManager"]
+},
+{"path" : "/Contact",
+"controller" : "Contact",
+"action" : "Contact",
+"method" : "GET",
+"param" : [],
+"manager": ["ContactManager"]
+},
+{"path" : "/Contact",
+"controller" : "Contact",
+"action" : "CreateMessage",
+"method" : "POST",
+"param" : [],
+"manager": ["ContactManager"]
+},
+{"path" : "/Profile",
+"controller" : "Profile",
+"action" : "Profile",
+"method" : "GET",
+"param" : [],
+"manager": ["ChallengeManager"]
+},
+{"path" : "/Index",
+"controller" : "Index",
+"action" : "index",
+"method" : "GET",
+"param" : [],
+"manager": ["IndexManager"]
+},
+{"path" : "/challenge",
+"controller" : "Challenge",
+"action" : "Challenges",
+"method" : "GET",
+"param" : [],
+"manager": ["IndexManager"]
+},
+{"path" : "/Challenge",
+"controller" : "Challenge",
+"action" : "Check",
+"method" : "POST",
+"param" : [],
+"manager": ["ChallengeManager"]
+},
+{"path" : "/Dashboard",
+"controller" : "Dashboard",
+"action" : "Dashboard",
+"method" : "GET",
+"param" : [],
+"manager": ["DashboardManager"]
+},
+{"path" : "/Admin",
+"controller" : "Admin",
+"action" : "Admin",
+"method" : "GET",
+"param" : [],
+"manager": ["AdminManager"]
+},
+{"path" : "/Admin1",
+"controller" : "Admin",
+"action" : "Admin1",
+"method" : "GET",
+"param" : [],
+"manager": ["AdminManager"]
+},
+{"path" : "/Admin2",
+"controller" : "Admin",
+"action" : "Admin2",
+"method" : "GET",
+"param" : [],
+"manager": ["AdminManager"]
+},
+{"path" : "/select",
+"controller" : "Admin",
+"action" : "ChangeTable",
+"method" : "POST",
+"param" : [],
+"manager": ["AdminManager"]
+}]

@@ -1,0 +1,4 @@
+RewriteEngine On
+
+FallbackResource /projet_perso/index.php
+
